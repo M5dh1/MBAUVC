@@ -3,7 +3,14 @@ import { createRoot } from 'react-dom/client';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import {
+  applyPolyfills,
+  defineCustomElements,
+} from '@alan-ai/alan-button/dist/loader';
 
+applyPolyfills().then(_ => {
+  defineCustomElements();
+});
 const container = document.getElementById('root');
 const root = createRoot(container!);
 root.render(

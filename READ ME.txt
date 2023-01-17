@@ -1,0 +1,19 @@
+npm install -g npm@9.3.0
+
+npm run start
+
+CTRL+C +> n
+
+//Building android apk.
+
+ionic cap build android
+
+ionic cap sync android
+
+ionic cap open android
+
+//Building iOS apk.
+
+ionic cap build ios
+
+ionic cap sync ios

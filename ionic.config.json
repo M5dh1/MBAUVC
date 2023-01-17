@@ -1,0 +1,7 @@
+{
+  "name": "MBAUVC",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

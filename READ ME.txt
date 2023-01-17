@@ -1,3 +1,4 @@
+{To init}
 npm install -g npm@9.3.0
 
 npm run start
@@ -17,3 +18,12 @@ ionic cap open android
 ionic cap build ios
 
 ionic cap sync ios
+
+
+{To pull from Git}
+git pull
+
+{To push with a new file added}
+git add .
+git commit -m 'hello'
+git push
